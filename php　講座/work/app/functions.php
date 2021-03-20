@@ -1,6 +1,5 @@
 <?php
 
-
   function h($str)
   {
     return htmlspecialchars($str, ENT_QUOTES, 'UTF-8' );
@@ -22,7 +21,4 @@
       exit('Invalid post request');
     }
   }
-
   session_start();
-
-?>
