@@ -5,6 +5,16 @@
     checkboxes.forEach(checkbox => {
         checkbox.addEventListener('change', () => {
             checkbox.parentNode.submit();
+
+            const url = '?action=purge';
+            const options = {
+                method: 'POST',
+                body: new URLSearchParams({
+                  id: ,
+                  token: ,
+                }),
+            };
+            fetch(url, option);
         });
     });
 }
