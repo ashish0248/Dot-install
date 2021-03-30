@@ -26,7 +26,7 @@ use Myapp\Utils;
     <header>
       <h1>Todos</h1>
               <span class="purge">Purge</span>
-    </header>   
+    </header> 
 
     <form action="?action=add" method="post">
     <input type="text" name="title" placeholder='Type new todo.'>
