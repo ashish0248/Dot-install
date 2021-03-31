@@ -79,7 +79,6 @@ class todo
             $stmt->execute();
         }
     }
-
     private function purge()
     {
         $stmt = $this->pdo->query("DELETE FROM todos WHERE is_done = 1");
