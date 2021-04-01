@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-
-
              k;double sin()
          ,cos();main(){float A=
        0,B=0,i,j,z[1760];char b[
